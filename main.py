@@ -1,6 +1,8 @@
 import stuct
 import argparse
 
+from spec import dmpspec
+
 parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,
     description='Converts a DefleMask DMP instrument file to ...other stuff.')
 parser.add_argument('input', help='the input file name')
